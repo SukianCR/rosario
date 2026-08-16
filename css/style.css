@@ -2,11 +2,16 @@
    GLOBAL STYLES
 ============================ */
 body {
-  background-color: #FAFAF4;
+  /* background-color: #FAFAF4; */
   font-family: 'Lato', sans-serif;
   color: #4A3F35;
   margin: 0;
   padding: 0;
+  background-image: url("../images/eclipse.png");/* sets the background image */
+  background-size: cover;        /* makes it fill the screen */
+  background-position: center;   /* centers the eclipse */
+  background-repeat: no-repeat;  /* no tiling */
+  background-attachment: fixed;  /* optional: creates a parallax feel */
 }
 
 /* Smooth scrolling for nav links */
@@ -43,9 +48,9 @@ html {
 /* ============================
    SERVICES SECTION
 ============================ */
-#services {
+/* #services {
   background-color: #FFFFFF;
-}
+} */
 
 .service-card {
   background-color: #FFFFFF;
@@ -196,3 +201,4 @@ footer {
 .navbar-brand {
   color: #2e4a27 !important;
 }
+
