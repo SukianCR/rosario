@@ -45,6 +45,14 @@ html {
   opacity: 0.9;
 }
 
+#hero {
+  /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); */
+    box-shadow: 0 10px 40px rgba(73, 72, 72, 0.9); 
+    
+  border-top: 1px solid rgb(34, 13, 2);
+  border-bottom: 1px solid rgb(34, 13, 2);
+
+}
 /* ============================
    SERVICES SECTION
 ============================ */
