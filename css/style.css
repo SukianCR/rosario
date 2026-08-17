@@ -210,3 +210,8 @@ footer {
   color: #2e4a27 !important;
 }
 
+.container {
+  max-width: 80%;
+  /* display: flex; 
+justify-content: center !important; */
+}
