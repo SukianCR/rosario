@@ -4,10 +4,10 @@
 body {
   /* background-color: #FAFAF4; */
   font-family: 'Lato', sans-serif;
-  color: #4A3F35;
+  
   margin: 0;
   padding: 0;
-  background-image: url("../images/eclipse.png");/* sets the background image */
+  background-image: url("../images/BK.png"); /* sets the background image */
   background-size: cover;        /* makes it fill the screen */
   background-position: center;   /* centers the eclipse */
   background-repeat: no-repeat;  /* no tiling */
