@@ -215,3 +215,11 @@ footer {
   /* display: flex; 
 justify-content: center !important; */
 }
+
+
+
+.list-group.list-group-flush .list-group-item {
+  border-bottom: none !important;
+}
+
+ 
