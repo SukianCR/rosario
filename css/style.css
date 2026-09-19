@@ -211,9 +211,22 @@ footer {
 }
 
 .container {
-  max-width: 80%;
+  max-width: 100%;
   /* display: flex; 
-justify-content: center !important; */
+justify-content:space-between; */
+
+}
+
+.navbar .container-fluid {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+} 
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-around;
+  width: 50%; /* or 50% depending on your taste */
 }
 
 
@@ -222,4 +235,11 @@ justify-content: center !important; */
   border-bottom: none !important;
 }
 
- 
+
+.lang-switch {
+  color: #d98c20 !important;   /* gold-orange */
+}
+
+.lang-switch:hover {
+  color: #2e8f3a !important;   /* earthy green */
+}
