@@ -244,11 +244,17 @@ justify-content:space-between; */
   color: #2e8f3a !important;   /* earthy green */
 }
 
+.flyer-img {
+  width: 100%;
+  height: auto;
+}
+
+/* Mobile only */
 @media (max-width: 768px) {
   .flyer-img {
-    max-width: 50%;
-    height: auto;
+    max-width: 70%;
     margin: 0 auto;
     display: block;
   }
 }
+
