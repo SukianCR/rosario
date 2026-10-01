@@ -243,3 +243,12 @@ justify-content:space-between; */
 .lang-switch:hover {
   color: #2e8f3a !important;   /* earthy green */
 }
+
+@media (max-width: 768px) {
+  .flyer-img {
+    max-width: 50%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+}
