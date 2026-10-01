@@ -1,0 +1,13 @@
+1 - Fix the double index , lo que esta indexando a www.centroshalia en vez de https://centroshalia. Por eso no esta indexando el index, arreglar eso.
+
+
+2 - ver por que el css no esta funcionando en
+cambiar el diseño de los titulos (color y tamaño text-warning) y en el nav bar (language button) 
+
+3 - agregar titulos de rosario
+
+4 - arreglar el formulario de contacto
+
+5-  agregar fotos
+
+6-  arreglar diseño (o rehacer con una nueva plantilla de bootswatch o cualquier otra de bootstrap, o hacer una de 0 donde yo defina los colores como primary, secundary, warning, etc.. para esto tengo que estudiar los componentes y como se hace una desde 0)
