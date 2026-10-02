@@ -210,7 +210,7 @@ footer {
   color: #2e4a27 !important;
 }
 
-.container {
+.container{
   max-width: 80%;
   align-items: center;
 
@@ -284,4 +284,8 @@ justify-content:space-between; */
 
 .modal-content, .container{
   background-color: rgba(255, 255, 255, 0.85) !important; /* semi-transparent white */
+}
+
+.contact-container{
+  background-color: rgba(255, 255, 255, 0.3) !important; /* semi-transparent white */
 }
