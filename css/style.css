@@ -245,16 +245,29 @@ justify-content:space-between; */
 }
 
 .flyer-img {
-  width: 100%;
+  width: auto;
+  max-width: 75%; /* adjust size as you want */
   height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
-/* Mobile only */
 @media (max-width: 768px) {
   .flyer-img {
-    max-width: 70%;
-    margin: 0 auto;
+    width: 80%;
+    max-width: 80%;
+    height: auto;
     display: block;
+    margin: 0 auto;
   }
 }
 
+
+.text-decoration-underline {
+  text-decoration-color: #f38f0d !important; /* Bootstrap cyan */
+  height: 0.8em !important; /* Adjust the height as needed */
+}
+
+.service-card{
+  background-color: rgba(255, 255, 255, 0.6);
+}
